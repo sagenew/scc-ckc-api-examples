@@ -32,19 +32,19 @@ headers = {
 # @Note: These are the sample sandbox client_id and client_secret values, so you will
 #        need to replace them with yours as provided with your reservation
 postData = {
-    'client_secret':'2uweuddI8VP4LqJ5N2ivbz2FKWga',
-    'client_id':'UuWdMkRiVQS43CFsNU_V2Qf_kn0a',
+    'client_secret':'Bpw8qejWXVQur3n6YAdqQAYtd94a',
+    'client_id':'nOZd6gw9_ORlJcZkgRifzMB6nzQa',
     'grant_type':'password'
 }
 
 # get username and password from commandline
 # For the first time user, the password will need to be set manually by logging into CKC dashboard, the link for which will be sent to the emailID
-username = input('Enter username (email address): ')
+
 
 password = input('Enter password: ')
 
 # Add username/password to post data
-postData['username'] = username
+postData['username'] = 'railwaytan@devnet.com'
 postData['password'] = password
 
 
